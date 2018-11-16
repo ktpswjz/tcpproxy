@@ -336,6 +336,8 @@ type DialProxy struct {
 	// no graceful downgrade.
 	// If zero, no PROXY header is sent. Currently, version 1 is supported.
 	ProxyProtocolVersion int
+
+	ProxyProtocolVersion2 int
 }
 
 // UnderlyingConn returns c.Conn if c of type *Conn,
